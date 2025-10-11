@@ -18,6 +18,29 @@
 
 本文档提供分步解决方案，建议按顺序尝试，优先推荐 **离线安装** 方案（稳定性最高）。
 
+## 以下都不需要看了，一个方法解决全部问题：
+```
+@echo off
+
+:: 配置代理（端口号需与你的代理工具一致，如不是1080则修改）
+
+set HTTP\_PROXY=http://127.0.0.1:1080
+
+set HTTPS\_PROXY=http://127.0.0.1:1080
+
+:: 启动 Unity Hub（路径改为你的国际版 Hub 安装路径）
+
+start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
+```
+* 将这段代码写成一个`cmd`文件，根据提示修改端口号、地址等信息
+* 代理工具的端口号（以CFW为例）可以参考以下图片
+  <img width="1491" height="816" alt="image" src="https://github.com/user-attachments/assets/db5d91e6-620a-4f8d-aabd-89ff7b67c9c7" /><img width="1437" height="250" alt="image" src="https://github.com/user-attachments/assets/dd34be65-8520-482c-b635-b32388351d1f" />
+* 代理工具打开tun模式，并采用全局代理，双击`cmd`文件启动国际版unity hub，正常安装Unity6即可。
+  
+
+
+
+## 下面都不用了
 ## 一、Unity 6 编辑器安装问题（跳转 CN 下载失败）
 
 ### 方案 1：国际版 Unity Hub 下载（可选，成功率较低）
