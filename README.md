@@ -36,6 +36,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 * 代理工具的端口号（以CFW为例）可以参考以下图片
   <img width="1491" height="816" alt="image" src="https://github.com/user-attachments/assets/db5d91e6-620a-4f8d-aabd-89ff7b67c9c7" /><img width="1437" height="250" alt="image" src="https://github.com/user-attachments/assets/dd34be65-8520-482c-b635-b32388351d1f" />
 * 代理工具打开tun模式，并采用全局代理，双击`cmd`文件启动国际版unity hub，正常安装Unity6即可。
+* 安装unity6建议按上述步骤进行，成功安装到本地后，打开项目建议不使用代理，可能会出现各种网络问题。
   
 
 
