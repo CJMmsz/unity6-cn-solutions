@@ -35,8 +35,8 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 * 将这段代码写成一个`cmd`文件，根据提示修改端口号、地址等信息
 * 代理工具的端口号（以CFW为例）可以参考以下图片
   <img width="1491" height="816" alt="image" src="https://github.com/user-attachments/assets/db5d91e6-620a-4f8d-aabd-89ff7b67c9c7" /><img width="1437" height="250" alt="image" src="https://github.com/user-attachments/assets/dd34be65-8520-482c-b635-b32388351d1f" />
-* 代理工具打开tun模式，并采用全局代理，双击`cmd`文件启动国际版unity hub，正常安装Unity6即可。
-* 安装unity6建议按上述步骤进行，成功安装到本地后，打开项目建议不使用代理，可能会出现各种网络问题。
+* 代理工具打开tun模式，并采用全局代理，双击`cmd`文件启动国际版unity hub，进入国际版登录网站登录gmail等国际版账号，正常安装Unity6即可。
+* 安装unity6以及登录国际版账号建议按上述步骤进行；成功安装到本地后，打开项目时建议不使用代理，可能会出现各种网络问题。
 
 
 
@@ -49,7 +49,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 
 
-1.  完全卸载 **国内版 Unity Hub**（请自行寻找解决方案）
+1.  完全卸载 **国内版 Unity Hub**，需要删除C盘内的一些文件夹（请自行寻找解决方案）
 
 2.  开启 **全局代理**（必须选择 **非港澳台节点**，如日本、美国节点）
 
@@ -57,7 +57,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 4.  打开国际版 Hub，在「Installs」中搜索 Unity 6 并尝试安装
 
-> ⚠️ 注意：目前该方案大概率会被强制跳转至 CN 下载链接，导致 
+> 注意：目前该方案大概率会被强制跳转至 CN 下载链接，导致 
 >
 > `Validation Failure`
 >
@@ -75,10 +75,9 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 *   **官方渠道**：访问 [Unity 编辑器归档页](https://unity.com/releases/editor/archive)，找到对应 Unity 6 版本（如 `6000.0.38f1`），下载「Unity Editor」及所需的「Build Target」
 
-*   **第三方镜像**：访问 [nounitycn.top](https://www.nounitycn.top/)，直接下载对应 Unity 6 版本的离线包（无需额外配置代理，稳定性较高）
+*   **第三方镜像**：访问 [nounitycn.top](https://www.nounitycn.top/)，直接下载对应 Unity 6 版本的离线包
 
 #### 步骤 2：安装离线包
-
 
 
 1.  运行下载的离线安装包（`.exe` 格式），按提示完成安装
@@ -95,13 +94,8 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 *   **现象**：安装过程中弹出提示，显示「安装 VC++ 2010 运行库失败」
 
-*   **影响**：Unity 6 仍可安装，但可能导致部分功能异常
+*   **影响**：Unity 6 仍可安装，但可能导致部分功能异常（暂时未经过详细测试）
 
-*   **解决方案**：
-
-1.  手动下载 [VC++ 2010 运行库](https://www.microsoft.com/en-us/download/details.aspx?id=5555)（选择对应系统位数：x86/x64）
-
-2.  右键以 **管理员身份** 运行安装程序，完成后重启电脑
 
 #### 2. Android Build Support 缺失 OpenJDK/SDK/NDK
 
@@ -121,7 +115,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 4.  重启 Unity Hub 和 Unity 6，问题解决
 
-> 📌 补充：若没有其他设备，可搜索 Unity 6 对应版本的「Android 组件压缩包」（如 
+>  补充：若没有其他设备，可搜索 Unity 6 对应版本的「Android 组件压缩包」（如 
 >
 > `6000.0.23f1JDK&SDK&OpenJDK.zip`
 >
