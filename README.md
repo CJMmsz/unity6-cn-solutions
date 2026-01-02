@@ -73,7 +73,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 
 
-*   **官方渠道**：访问 [Unity 编辑器归档页](https://unity.com/releases/editor/archive)，找到对应 Unity 6 版本（如 `6000.0.38f1`），下载「Unity Editor」及所需的「Build Target」
+*   **官方渠道**：访问 [Unity 编辑器归档页](https://unity.com/releases/editor/archive)，找到对应 Unity 6 版本，下载「Unity Editor」及所需的「Build Target」
 
 *   **第三方镜像**：访问 [nounitycn.top](https://www.nounitycn.top/)，直接下载对应 Unity 6 版本的离线包
 
@@ -101,7 +101,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 
 
-*   **现象**：安装「Android Build Support」后，创建 Android 项目时提示缺失 OpenJDK、SDK 或 NDK
+*   **现象**：离线下载安装「Android Build Support」后，创建 Android 项目时提示缺失 OpenJDK、SDK 或 NDK
 
 *   **解决方案**（从正常安装的设备复制）：
 
@@ -111,15 +111,10 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 
 2.  复制该目录下的 `OpenJDK`、`SDK`、`NDK` 三个文件夹
 
-3.  将复制的文件夹粘贴到本地 Unity 6 的相同路径下（如 `E:\UnityEditor\6000.0.38f1\Editor\Data\PlaybackEngines\AndroidPlayer`）
+3.  将复制的文件夹粘贴到本地 Unity 6 的相同路径下（**笔者在本仓库中提供了6000.0.23f1的相关文件** `E:\UnityEditor\6000.0.38f1\Editor\Data\PlaybackEngines\AndroidPlayer`）
 
 4.  重启 Unity Hub 和 Unity 6，问题解决
 
->  补充：若没有其他设备，可搜索 Unity 6 对应版本的「Android 组件压缩包」（如 
->
-> `6000.0.23f1JDK&SDK&OpenJDK.zip`
->
-> ），解压后按上述路径替换。
 
 ## 二、Unity Hub 登录跳转 CN 界面问题
 
