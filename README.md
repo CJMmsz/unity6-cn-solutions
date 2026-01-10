@@ -34,7 +34,7 @@ start "" "E:\UnityHub\Unity Hub\Unity Hub.exe"
 + 将上述代码保存一个`cmd`文件，根据提示修改端口号、地址等信息
 + 代理工具的端口号（以CFW为例）可以参考以下图片  
   <img width="1491" height="816" alt="image" src="https://github.com/user-attachments/assets/db5d91e6-620a-4f8d-aabd-89ff7b67c9c7" /><img width="1437" height="250" alt="image" src="https://github.com/user-attachments/assets/dd34be65-8520-482c-b635-b32388351d1f" />
-+ 代理工具打开tun模式，并采用全局代理（非港澳台节点），双击`cmd`文件启动**国际版unity hub**，进入国际版登录网站登录gmail等**国际版账号（Unity禁止了国内学生版的Unity pro License申请，故灵境购买了有pro的账号，可咨询老师）**，正常安装Unity6即可。
++ 代理工具打开tun模式，并采用全局代理（非港澳台节点），双击`cmd`文件启动**国际版unity hub**，进入国际版登录网站登录gmail等**国际版账号**，正常安装Unity6即可。
 + 安装unity6以及登录国际版账号建议按上述步骤进行；成功安装编辑器到本地后，再打开项目时建议不使用代理，可能会出现各种网络问题。
 
 ---
