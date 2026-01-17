@@ -4,7 +4,6 @@
 
 ## 前言
 
-[本文档github仓库链接](https://github.com/CJMmsz/unity6-cn-solutions)
 
 由于众所周知的原因，Unity 6 国内无法直接正常使用，常见问题包括：
 
