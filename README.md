@@ -19,11 +19,11 @@
 ```plain
 @echo off
 
-:: 配置代理（端口号需与你的代理工具一致，如不是1080则修改）
+:: 配置代理（端口号需与你的代理工具一致，clash默认7890）
 
-set HTTP\_PROXY=http://127.0.0.1:1080
+set HTTP\_PROXY=http://127.0.0.1:7890
 
-set HTTPS\_PROXY=http://127.0.0.1:1080
+set HTTPS\_PROXY=http://127.0.0.1:7890
 
 :: 启动 Unity Hub（路径改为你的国际版 Hub 安装路径）
 
